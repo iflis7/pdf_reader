@@ -2,7 +2,7 @@ import pyttsx3
 import PyPDF2
 
 # Read the file in binary mode:
-book = open('books/HAFID-SAADI_CV_.pdf', 'rb')
+book = open('books/think_and_grow_rich.pdf', 'rb')
 
 # Create a PdfFileReader object:
 pdfReader = PyPDF2.PdfReader(book)
